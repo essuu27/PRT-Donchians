@@ -54,8 +54,8 @@ The first version of ProRealTime I used was v10.3 on a candlestick chart. I noti
 <tr><td><img src="donchian-103.png"></td><td></td><td><img src="donchian-111.png"></td></tr>
 </table>
 
-Both graphics show the same instrument in the same timeframe. The graphic on the left shows the v10.3 screen and, on the right shows the v11.1 screen.  It should be easily to see where the candlesticks extend beyone the Donchian bands on the left hand graphic. These are both 'vanilla' setups so there should be no configurations that could affect them.
+Both graphics show the same instrument in the same timeframe. The graphic on the left shows the v10.3 screen and, on the right shows the v11.1 screen.  It should be easily to see where the candlesticks extend beyond the Donchian bands on the left hand graphic. These are both 'vanilla' setups so there should be no configurations that could affect them.
 
-I thought/believed that this default v10.3 behaviour was probably not the best especially if you're working with multi-timeframes as a lower timeframe could get an erroneous figure for what the upper timeframe's Donchian values are.
+I believed that this default v10.3 behaviour was possibly "in error" especially if you're working with multi-timeframes as a lower timeframe could get an erroneous figure for what the higher timeframe's Donchian values were.
 
 The next version of ProRealTime seems to have corrected this behaviour of the Donchian channel indicator so it should not be necessary.
