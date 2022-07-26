@@ -41,7 +41,7 @@ The Donchian channel is an indicator used in market trading developed by Richard
 ## Advanced usage
 By default the New_Donchians indicator indicates the highest price and  the lowest price that an instrument has displayed in the last 6 time periods. If you want to change the number of time periods that are covered by this indicator then you can change the value of the **SAMPLEPERIOD variable** in line 1.
 
-This indicator returns the values of the highest price value, the lowest price value and the 'midpoint' of those as variables that can be used by other indicators. It does this by reurning the following variables:
+This indicator returns the values of the highest price value, the lowest price value and the 'midpoint' of those as variables that can be used by other indicators. It does this by returning the following variables:
 - DonHI - the value of the upper Donchian band
 - DonLO - the value of the lower Donchian band
 - DonMID - the 'simple' halfway value between DonHI and DonLo ie.  (DonHI - DonLO) / 2
@@ -58,3 +58,4 @@ Both graphics show the same instrument in the same timeframe. The graphic on the
 
 I thought/believed that this default v10.3 behaviour was probably not the best especially if you're working with multi-timeframes as a lower timeframe could get an erroneous figure for what the upper timeframe's Donchian values are.
 
+The next version of ProRealTime seems to have corrected this behaviour of the Donchian channel indicator so it should not be necessary.
