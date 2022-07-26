@@ -26,7 +26,7 @@ Here is a download of a pre-compiled binary version of this indicator for import
 ## Usage
 Usage of this indicator should be fairly easy;
 
-- install the New_Donchians indicator on your version of ProRealTime (v10.3), either by directly inputting the source code to a new indicator or by importing the .itl file provided.
+- install the New_Donchians indicator on your version of ProRealTime (v10.3), either by directly inputting the source code to a new indicator or by importing the .itf file provided.
 - open a chart of the instrument you want to monitor
 - Click on the 'Price' tab
 - select 'Add indicator' from the drop-down menu
